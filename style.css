@@ -1,0 +1,10 @@
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    border: 1px red solid;
+    height: 500px;
+}
+
+.grid-wrapper > div {
+    border: 1px black solid;
+}
