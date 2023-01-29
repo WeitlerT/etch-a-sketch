@@ -16,6 +16,7 @@ function makeTable(n1,n2,size){
         wrapper.appendChild(div).className = `divCell ${size}`;
     }
 }
+makeTable(16,16,'small');
 
 function tableSize(e){
     // console.log(e.target);
