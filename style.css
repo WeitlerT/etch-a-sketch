@@ -2,8 +2,6 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    /* flex-direction: column; */
-    /* border: 3px blue solid; */
 }
 
 /* MAIN WRAPPERS */
@@ -61,6 +59,20 @@ h2 {
 .sidebar-wrapper h1 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+#mePara {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 50%;
+    color: black;
+}
+a{
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
 }
 /* BUTTONS */
 button {
