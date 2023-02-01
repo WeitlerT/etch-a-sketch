@@ -8,7 +8,7 @@ body{
 .content-wrapper{
     display: flex;
     flex-direction: column;
-    border: 5px red solid;
+    /* border: 5px red solid; */
     border-radius: 5px;
     max-width: 750px;
     min-width: 768px;
@@ -21,6 +21,7 @@ body{
     min-height: 500px;
     min-width: 768px;
     background-color: rgba(128, 128, 128, 0.599);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .grid-wrapper > div {
@@ -29,9 +30,10 @@ body{
 
 .btn-wrapper {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-direction: row-reverse;
     margin: 10px;
+    margin-bottom: 15px;
 }
 
 .sidebar-wrapper {
@@ -45,9 +47,10 @@ body{
 }
 
 /* HEADERS/TEXT */
-.header {
-    color: black;
+.etchHeader {
     text-align: center;
+    margin: 0;
+    padding: 15px;
 }
 
 h2 {
@@ -87,7 +90,7 @@ button {
     background-color: #fff;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
